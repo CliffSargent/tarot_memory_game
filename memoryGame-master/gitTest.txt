@@ -1,0 +1,16 @@
+Test
+Tyler
+
+	// After making a change to push
+
+git add .
+
+git commit -m "descriptive message about your addition"
+
+git push
+
+
+
+	// To pull
+
+git pull

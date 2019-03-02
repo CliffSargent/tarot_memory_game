@@ -1,0 +1,183 @@
+<!--standard setup to link js pages and css pages  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+    <link rel="stylesheet" href="style2.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet">
+	
+    <title>Ye Olde Tarot Game</title>
+</head>
+<body>
+
+	<!-- <embed src = "backgroundSong1.mp3" autostart = "true" loop = "true" width = "0" height = "0"> -->
+	
+	<embed src = "backgroundSong2.mp3" autostart = "true" loop = "true" width = "0" height = "0">
+	
+	<!--nav bar up top with title  -->
+	<nav class= "headerContainer">
+        <h4>Ye Olde Tarot Game</h4>
+	</nav>
+	
+	<!-- left display of life card and message -->
+    <div class="middleContainer">
+        <section class= "child left">
+            <img class="life" src="Tarot Cards/temperance.png"></img> 
+            <p class = "lifeMessage">Life</p>
+		</section>
+	<!-- class child cards, and a container to put all the cards in to keep them rectangular -->
+        <section class="child cards">
+            <div class="deckContainer">
+				
+			<!-- tarot cards, each div has 2 cards, so they can flip amoungst each other -->
+			<!-- 16 total cards will be in the following divs -->
+				<div class = "flip" >
+					<div class = "shift shift0">
+						<img class="card" id="0" src="tarotBack.png"></img>
+						<img class="back" id="back0" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift1" >
+						<img class="card" id="1" src="tarotBack.png"></img>
+						<img class="back" id="back1" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift2" >
+						<img class="card" id="2" src="tarotBack.png"></img>
+						<img class="back" id="back2" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift3" >
+						<img class="card" id="3" src="tarotBack.png"></img>
+						<img class="back" id="back3" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift4" >
+						<img class="card" id="4" src="tarotBack.png"></img>
+						<img class="back" id="back4" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift5" >
+						<img class="card" id="5" src="tarotBack.png"></img>
+						<img class="back" id="back5" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift6" >
+						<img class="card" id="6" src="tarotBack.png"></img>
+						<img class="back" id="back6" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift7" >
+						<img class="card" id="7" src="tarotBack.png"></img>
+						<img class="back" id="back7" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift8" >
+						<img class="card" id="8" src="tarotBack.png"></img>
+						<img class="back" id="back8" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift9" >
+						<img class="card" id="9" src="tarotBack.png"></img>
+						<img class="back" id="back9" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift10" >
+						<img class="card" id="10" src="tarotBack.png"></img>
+						<img class="back" id="back10" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift11" >
+						<img class="card" id="11" src="tarotBack.png"></img>
+						<img class="back" id="back11" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift12" >
+						<img class="card" id="12" src="tarotBack.png"></img>
+						<img class="back" id="back12" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift13" >
+						<img class="card" id="13" src="tarotBack.png"></img>
+						<img class="back" id="back13" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift14" >
+						<img class="card" id="14" src="tarotBack.png"></img>
+						<img class="back" id="back14" src="tarotBack.png"></img>
+					</div>
+				</div>
+				
+				<div class = "flip">
+					<div class = "shift shift15" >
+						<img class="card" id="15" src="tarotBack.png"></img>
+						<img class="back" id="back15" src="tarotBack.png"></img>
+					</div> 
+				</div>
+            </div>
+        </section>
+        <section class="child right">
+            <img class="death" src="Tarot Cards/death.png"></img>
+            <p class = "deathMessage">Death</p>
+        </section>
+    </div>
+	
+	<!-- bottom container that has play, timer, and reset button -->
+    <nav class= "bottomContainer">
+        <button type="reset" class="startButton">
+            <i class="fas fa-play-circle"></i>
+		</button>
+		
+		<div class="Timer">Timer</div>
+		
+        <button type="reset" class="resetButton">
+		<i class="fas fa-redo-alt Reset"></i>
+		</button>
+    </nav>
+	
+	<!-- script get linked here, jquery script and our own script file -->
+	<script src = "https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+	
+    <script src="script4.js"></script>
+	
+</body>
+</html>
